@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.LoginScreen {
+  position: relative;
+  background: url("https://cdn.dribbble.com/users/635160/screenshots/1763719/abstract_mech_dribble_2.gif")
+    center no-repeat;
+  height: 100vh;
+  object-fit: contain;
+  background-size: 100%;
+}
+.loginScreen_body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.loginScreen_body > form {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  background-color:rgba(31, 41, 55, 0.5);
+  /* opacity: 0.5; */
+  border-radius: 10px;
+}
+.loginScreen_body > form > input {
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: gray solid 3px;
+  height: 50px;
+  padding-left: 10px;
+}
+.loginScreen_body button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 30%;
+  background: #d42526;
+  color: white;
+  outline: none;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loginScreen_body > form > h4 {
+  position: left;
+  color: gray;
+}
+.loginScreen_body form span {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .loginScreen_body > form {
+    width: 90%;
+    margin: 30px;
+  }
+  .loginScreen_body button {
+    max-width: 50%;
+  }
+}
