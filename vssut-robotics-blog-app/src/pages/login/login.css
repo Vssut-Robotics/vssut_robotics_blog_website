@@ -1,0 +1,57 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+
+
+    ), url("../../../assets/RS-logo.png");
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+    background-size: initial;
+}
+.loginTitle{
+    font-size: 50px;
+    color: coral;
+    font-family: 'Varela';
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela';
+}
+.loginForm > label{
+    margin: 10px 0;
+    flex-direction: column;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+

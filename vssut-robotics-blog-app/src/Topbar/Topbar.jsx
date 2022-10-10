@@ -1,7 +1,12 @@
-import "./TopBar.css"
+import { Link } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import "./TopBar.css";
+
 
 const Topbar = () => {
+  const user = true;
   return (
+    <>
     <div className="top">
       <div className="topLeft">
         <i className=" topIcon fa-brands fa-facebook"></i>
@@ -14,11 +19,21 @@ const Topbar = () => {
       </div>
       <div className="topCenter">
         <ul className="topList">
-          <li className="topListItem">Home</li>
-          <li className="topListItem">About</li>
-          <li className="topListItem">Contact</li>
-          <li className="topListItem">Write</li>
-          <li className="topListItem">Logout</li>
+          <li className="topListItem">
+            <Link to="/" className="link">HOME</Link>
+          </li>
+          <li className="topListItem">
+            <Link to="/about" className="link">ABOUT</Link>
+          </li>
+          <li className="topListItem">
+            <Link to="/settings" className="link">CONTACT</Link>
+          </li>
+          <li className="topListItem">
+            <Link to="/post" className="link">WRITE</Link>
+          </li>
+          <li className="topListItem">
+            <Link to="/login" className="link">LOGOUT</Link>
+          </li>
 
 
         </ul>
@@ -29,6 +44,8 @@ const Topbar = () => {
       </div>
 
     </div>
+      <HomePage />
+      </>
   )
 }
 
