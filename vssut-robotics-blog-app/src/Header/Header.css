@@ -5,19 +5,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Lora', sans-serif;
-    color: black;
+    font-family: 'Varela', sans-serif;
+    color: navy;
 }
 .headerTitleSmall{
     position: absolute;
     top: 18%;
     font-size: 20px;
+    color: navy transparent;
 }
 .headerTitleLarge{
     position: absolute;
     top: 20%;
     font-size: 100px;
+    color: black;
 }
+
 .headerImage{
     width: 100%;
     height: 450px;
