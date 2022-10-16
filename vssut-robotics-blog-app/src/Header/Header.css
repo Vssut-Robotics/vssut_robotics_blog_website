@@ -1,28 +1,28 @@
-.header{
-    margin-top: 60px;
-}
-.headerTitle{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Varela', sans-serif;
-    color: navy;
-}
-.headerTitleSmall{
-    position: absolute;
-    top: 18%;
-    font-size: 20px;
-    color: navy transparent;
-}
-.headerTitleLarge{
-    position: absolute;
-    top: 20%;
-    font-size: 100px;
-    color: black;
+.header {
+  margin-bottom: 40px;
 }
 
-.headerImage{
-    width: 100%;
-    height: 450px;
-    margin-top: 40px;
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Varela", sans-serif;
+  color: navy;
+}
+.headerTitleSmall {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+  color: navy transparent;
+}
+.headerTitleLarge {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  color: black;
+}
+
+.headerImage {
+  width: 100%;
+  height: 450px;
 }
