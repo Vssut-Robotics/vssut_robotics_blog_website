@@ -1,7 +1,5 @@
-import React from 'react';
-import Post from '../Post/Post';
-
-
+import React from "react";
+import Post from "../Post/Post";
 
 const posts = () => {
   return (
@@ -12,9 +10,8 @@ const posts = () => {
       <Post />
       <Post />
       <Post />
-
     </div>
-  )
-}
+  );
+};
 
-export default posts
+export default posts;
